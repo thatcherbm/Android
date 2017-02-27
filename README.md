@@ -1,1 +1,1 @@
-# Android
+These are my project files from my Android Development class.  Some of the folders have readme files that explain some of what the projects are about and many of them also have a fair amount of comments.  I've left the .apk files that I generated to turn in so you can test them out.  Copying them over I got some issues with filenames being too long so I don't know to what extent Android Studio will fix that if you load up the code in it.
