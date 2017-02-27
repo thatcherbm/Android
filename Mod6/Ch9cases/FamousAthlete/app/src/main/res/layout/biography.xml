@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TableRow>
+        <TextView
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtbirth"
+            android:textSize="50sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txthome"
+            android:textSize="50sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtstats"
+            android:textSize="50sp" />
+    </TableRow>
+
+</TableLayout>

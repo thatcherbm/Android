@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ring Tones</string>
+    <string name="splashTxt">Ring Tone Sampler</string>
+    <string name="kfcTxt">Kentucky Fried Chicken</string>
+    <string name="kfcDescription">Colonel Sanders singing a jingle about chicken</string>
+    <string name="mentalTxt">Mental Health Hotline</string>
+    <string name="mentalDescription">If you\'re crazy or you want to be, give us a call</string>
+    <string name="manamanaTxt">Muppets Manamana</string>
+    <string name="manamanaDescription">That catchy tune we have to blame on The Muppet Show</string>
+    <string name="playTxt">Play Ringtone</string>
+    <string name="pauseTxt">Pause Ringtone</string>
+</resources>

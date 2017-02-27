@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Amtrack Train</string>
+    <string name="titleStartTime">Boarding Time (24hour)</string>
+    <string name="titleHours">Hours</string>
+    <string name="titleMinutes">Minutes</string>
+    <string name="titleTripTime">Trip Length (Minutes)</string>
+    <string name="btncalc">Calculate</string>
+</resources>

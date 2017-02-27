@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Moving Truck Calculator</string>
+    <string name="txtTiltle">Moving Truck Calculator</string>
+    <string name="titleTruck">Select Truck</string>
+    <string name="rdobt10">10-foot $19.95</string>
+    <string name="rdobt17">17-foot $29.95</string>
+    <string name="rdobt26">26-foot $29.95</string>
+    <string name="titleMiles">Enter Miles</string>
+    <string name="btncalc">Calculate</string>
+</resources>

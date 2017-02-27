@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Gas Mileage</string>
+    <string name="title_page_detail">MULTI-VEHICLE\nMILEAGE\nTRACKER</string>
+    <string name="title_splash">Splash Page</string>
+    <string name="txtSplashTitle">MULTI-VEHICLE\nMILEAGE\nTRACKER</string>
+    <string name="add">ADD</string>
+    <string name="edit">EDIT</string>
+    <string name="cancel">CANCEL</string>
+    <string name="delete">DELETE</string>
+
+    <string name="historytitle">Fill-up History</string>
+    <string name="historyinst">Change view by selecting vehicle in dropdown, add new entries by
+        tapping the add button, edit entries by tapping them in the window.</string>
+    <string name="vehiclehead">Vehicle</string>
+    <string name="mileshead">Miles</string>
+    <string name="gallonshead">Gallons</string>
+    <string name="costhead">Cost</string>
+    <string name="mileagehead">Miles/Gal</string>
+    <string name="vehiclestitle">Add/Edit Vehicles</string>
+    <string name="vehiclesinst">Add new entries by tapping the add button, edit entries by tapping
+        them in the window.</string>
+    <string name="namehead">Vehicle</string>
+
+    <string name="fillupdialogtitleadd">New Fillup</string>
+    <string name="fillupdialogtitleedit">Edit Fillup</string>
+    <string name="selectvehicle">Select Vehicle</string>
+    <string name="selectdate">Select Date</string>
+    <string name="entermiles">Enter Miles Between Fillups</string>
+    <string name="entergallons">Enter Gallons of Fuel</string>
+    <string name="entercost">Enter Cost of Fillup</string>
+
+    <string name="vehicledialogtitleadd">New Vehicle</string>
+    <string name="vehicledialogtitleedit">Edit Vehicle</string>
+    <string name="enterName">Enter Vehicle Name</string>
+    <string name="nameHint">08 Civic</string>
+
+    <string name="reporttitle">Statistical Reports</string>
+    <string name="reportinst">Displays total or average value by period. Switch between yearly and
+        monthly reports using the radio buttons</string>
+    <string name="rdoyear">YEAR</string>
+    <string name="rdomonth">MONTH</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash">Splash</string>
+</resources>

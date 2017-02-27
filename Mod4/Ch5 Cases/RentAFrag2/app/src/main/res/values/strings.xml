@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Rent A Car</string>
+    <string name="car">Car Image</string>
+    <string name="btnTxt">Browse Companies</string>
+
+    <string-array name="Companies">
+        <item>Alamo</item>
+        <item>Dollar</item>
+        <item>Hertz</item>
+        <item>Enterprise</item>
+        <item>Budget</item>
+        <item>National</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sleep Machine</string>
+    <string name="mainTitle">Sleep Machine Sounds</string>
+    <string name="playWaves">Play Waves Sound</string>
+    <string name="pauseWaves">Pause Waves Sound</string>
+    <string name="playFan">Play Fan Sound</string>
+    <string name="pauseFan">Pause Fan Sound</string>
+
+</resources>

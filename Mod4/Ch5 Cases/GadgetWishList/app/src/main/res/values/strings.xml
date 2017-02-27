@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Gadget Wish List</string>
+    <string name="btnTxt">See It Online</string>
+    <string name="gadgetName">Gadget Name</string>
+    <string name="gadgetsListTitle">Ben\'s Wish List</string>
+</resources>

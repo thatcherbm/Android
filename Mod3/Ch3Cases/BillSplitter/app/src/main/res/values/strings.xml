@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BillSplitter</string>
+    <string name="goBtnTxt">GO</string>
+    <string-array name="quality">
+        <item>Excellent</item>
+        <item>Average</item>
+        <item>Poor</item>
+    </string-array>
+    <string name="billHint">Bill Total</string>
+    <string name="peopleHint"># of people</string>
+    <string name="serviceHInt">Quality of Service</string>
+    <string name="tipHint">Tip Total</string>
+    <string name="service">Service Quality</string>
+    <string name="calctip">Calculate</string>
+</resources>

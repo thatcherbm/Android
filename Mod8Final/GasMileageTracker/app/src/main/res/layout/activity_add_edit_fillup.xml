@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_edit_fillup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.thatcherbm.gasmileagetracker.AddEditFillup">
+
+    <TextView
+        android:text="@string/fillupdialogtitleadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fillupDialogTitle"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="@string/selectvehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectVehicleTitle"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectVehicle" />
+
+    <TextView
+        android:text="@string/selectdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectDateTitle"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fillupDate"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:text="@string/entermiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterMilesTitle"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:labelFor="@+id/fillupMiles" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal"
+        android:ems="10"
+        android:id="@+id/fillupMiles" />
+
+    <TextView
+        android:text="@string/entergallons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterGallonsTitle"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:labelFor="@+id/fillupGallons" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/fillupGallons" />
+
+    <TextView
+        android:text="@string/entercost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterCostTitle"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:labelFor="@+id/fillupCost" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/fillupCost"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom">
+
+        <Button
+            android:text="@string/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addButton"
+            android:layout_weight="1"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:text="@string/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editButton"
+            android:layout_weight="1"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:text="@string/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancelButton"
+            android:layout_weight="1"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Famous Athlete</string>
+    <string name="title_item_detail">Shaq Info</string>
+    <string name="txtfirst">Picture</string>
+    <string name="txtsecond">Biographical Info</string>
+    <string name="txtthird">WebLink</string>
+    <string name="txtname">Shaquile O\'Neal</string>
+    <string name="txtdescription">Shaq is a famous NBA star.  He is a terrible free throw shooter.
+        Shag is also a movie and video game star.</string>
+    <string name="txtbirth">Birthdate: March 6, 1972</string>
+    <string name="txthome">Hometown: Newark, New Jersey</string>
+    <string name="txtstats">Stats:  7\' 1", 325 lbs, 58.7% Career FGP</string>
+</resources>

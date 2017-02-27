@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FloorTiling</string>
+    <string name="hwMnyTtl">How many tiles do you need?</string>
+    <string name="tlSzTtl">Tile Size</string>
+    <string name="rd12">12in x 12in</string>
+    <string name="rd18">18in x 18in</string>
+    <string name="calcBtn">Calculate</string>
+    <string name="lengthLbl">Floor Length</string>
+    <string name="widthLbl">Floor Width</string>
+    <string name="hint">Whole feet</string>
+    <string name="joke">Hah Hah good joke! You have to enter Numbers greater than zero.</string>
+</resources>

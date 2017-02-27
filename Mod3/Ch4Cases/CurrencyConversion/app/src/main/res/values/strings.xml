@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CurrencyConversion</string>
+    <string name="heading">Convert US Currency</string>
+    <string name="radioEur">Euros</string>
+    <string name="radioMex">Mexican Pesos</string>
+    <string name="radioCan">Canadian Dollars</string>
+    <string name="intoText">INTO</string>
+    <string name="calculateBtn">CALCULATE</string>
+</resources>

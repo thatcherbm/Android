@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PaintCalculator</string>
+    <string name="heightPrompt">Enter Wall Height:</string>
+    <string name="distancePrompt">Enter Wall Distance:</string>
+    <string name="colorPrompt">Select Paint Color:</string>
+    <string name="colorPromptText" />
+    <string-array name="paintColors">
+        <item>Marachino</item>
+        <item>Eggplant</item>
+        <item>Salmon</item>
+        <item>Honeydew</item>
+        <item>Spindrift</item>
+    </string-array>
+    <string name="hint">Feet</string>
+    <string name="outputPrompt">Gallons of Paint Needed:</string>
+    <string name="calculate">Calculate</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SchoolApp</string>
+    <string name="title_activity_school_info">SchoolInfo</string>
+    <string name="picture_of_the_datc_rotunda">picture of the datc rotunda</string>
+    <string name="info">INFO</string>
+    <string name="datc">DATC</string>
+</resources>

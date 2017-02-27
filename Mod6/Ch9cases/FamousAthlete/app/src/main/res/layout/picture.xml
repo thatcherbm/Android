@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtname"
+            android:textSize="50sp" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/imgShaq"
+            android:layout_width="wrap_content"
+            android:src="@drawable/shaq"
+            android:padding="15sp"
+            android:scaleType="fitStart"
+            android:layout_height="400dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtdescription"
+            android:textSize="36sp" />
+    </TableRow>
+
+
+
+</TableLayout>

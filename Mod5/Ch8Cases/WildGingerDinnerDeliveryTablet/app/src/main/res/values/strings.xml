@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Wild Ginger Dinner Delivery</string>
+    <string name="imgMain">Main Image</string>
+    <string name="txtTitle">Wild Ginger Dinner Delivery</string>
+    <string name="txtDescription">Get you dinner delivered to your home between 5pm and 11pm.  Our
+        5 star kitchen offers the following choices.</string>
+    <string name="btnTime">Select Time You Want Your Delivery</string>
+    <string name="txtZabuton">Zabuton</string>
+    <string name="rdZabuton">Slow roasted SnakeRiver Farms Kobe Style Beef, roasted root
+        vegetables, mashed potatoes, bordelaise sauce</string>
+    <string name="txtBaconDog">Bacon Dog</string>
+    <string name="rdBaconDog">Kobe beef SnakeRiver Farms frank smothered with
+        caramelized onions and applewood smoked bacon on a grilled house made brioche bun served
+        with fries</string>
+</resources>

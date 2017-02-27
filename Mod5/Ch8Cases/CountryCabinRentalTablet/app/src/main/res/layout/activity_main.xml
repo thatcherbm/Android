@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.thatcherbm.countrycabinrentaltablet.MainActivity">
+    
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <!-- Main image showing a cabin -->
+            <ImageView
+                android:id="@+id/imgMain"
+                android:contentDescription="@string/imgMain"
+                android:src="@drawable/cabin"
+                android:layout_width="265dp"
+                android:layout_height="660dp" />
+
+            <!-- Table for vertical stacking of fields -->
+            <TableLayout
+                android:layout_height="wrap_content"
+                android:layout_width="1010dp">
+
+                <TableRow>
+                    <!-- First row has the Title -->
+                    <View android:layout_height="40dp" />
+
+                    <TextView
+                        android:id="@+id/txtTitle"
+                        android:layout_width="match_parent"
+                        android:gravity="fill_horizontal"
+                        android:padding="20dp"
+                        android:text="@string/txtTitle"
+                        android:textSize="50sp"
+                        android:typeface="serif"
+                        android:background="#ccff90" />
+                </TableRow>
+
+                <TableRow>
+                    <!-- Second row has a description -->
+                    <View android:layout_height="60dp" />
+                    <TextView
+                        android:id="@+id/txtDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="20dp"
+                        android:text="@string/txtDescription"
+                        android:textSize="30sp"
+                        />
+                </TableRow>
+
+                <TableRow>
+                    <!-- Third row for the radio buttons to select a cabin type -->
+                    <View android:layout_height="70dp" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:id="@+id/cabins" >
+
+                        <RadioButton
+                            android:text="@string/rdAdirondack"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rdAdirondack"
+                            android:textSize="30sp"
+                            android:layout_weight="1"
+                            android:textAllCaps="true"
+                            android:checked="true"
+                            android:textAlignment="viewStart" />
+
+                        <RadioButton
+                            android:text="@string/rdAppalachian"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rdAppalachian"
+                            android:textSize="30sp"
+                            android:layout_weight="1"
+                            android:textAllCaps="true" />
+
+                    </RadioGroup>
+
+                </TableRow>
+
+                <TableRow>
+                    <!-- Fourth row for the button to open the datepicker -->
+                    <View android:layout_height="50dp" />
+                    <Button
+                        android:id="@+id/btnDate"
+                        android:layout_width="match_parent"
+                        android:gravity="fill_horizontal"
+                        android:padding="20dp"
+                        android:text="@string/btnDate"
+                        android:textSize="48sp"
+                        android:textAlignment="viewStart"
+                        android:background="#ccff90" />
+                </TableRow>
+
+                <TableRow>
+                    <!-- Last row for displaying chosen reservation -->
+                    <View android:layout_height="60dp" />
+                    <TextView
+                        android:id="@+id/txtReservation"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="20dp"
+                        android:textSize="35sp"
+                        />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</ScrollView>

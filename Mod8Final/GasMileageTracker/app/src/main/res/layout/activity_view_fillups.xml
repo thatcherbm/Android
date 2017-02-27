@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_fillups"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.thatcherbm.gasmileagetracker.ViewFillups">
+
+    <TextView
+        android:text="@string/historytitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitle"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtInst"
+        android:text="@string/historyinst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputTray">
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/spnVehicles"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="@string/add"
+            android:layout_height="wrap_content"
+            android:id="@+id/BtnAdd"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/headers">
+
+        <TextView
+            android:text="@string/vehiclehead"
+            android:layout_height="wrap_content"
+            android:id="@+id/vehicleHead"
+            android:layout_weight="1"
+            android:layout_width="90dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="@string/mileshead"
+            android:layout_height="wrap_content"
+            android:id="@+id/milesHead"
+            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="@string/gallonshead"
+            android:layout_height="wrap_content"
+            android:id="@+id/gallonsHead"
+            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="@string/costhead"
+            android:layout_height="wrap_content"
+            android:id="@+id/costHead"
+            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="@string/mileagehead"
+            android:layout_height="wrap_content"
+            android:id="@+id/mileageHead"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_width="60dp" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:id="@android:id/list" />
+
+
+</LinearLayout>

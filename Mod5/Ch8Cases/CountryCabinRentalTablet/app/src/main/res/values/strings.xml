@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Country Cabin Rental</string>
+    <string name="imgMain">Main Image</string>
+    <string name="txtTitle">Country Cabin Rental Agency</string>
+    <string name="txtDescription">We have 2 wonderful cabin choices for guests looking to get away.
+        The Adirondack is great for couples, featuring a king size bed, full bathroom, and a patio
+        facing the sunset.  The Appalachian is great for families with a master suite, bunkbeds
+        hide-a-bed, and two bathrooms.</string>
+    <string name="btnDate">Select Start Date of Reservation</string>
+    <string name="rdAdirondack">Adirondack</string>
+    <string name="rdAppalachian">Appalachian</string>
+</resources>
